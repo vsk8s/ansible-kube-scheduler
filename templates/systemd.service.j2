@@ -1,0 +1,13 @@
+[Unit]
+Description=Kubernetes Scheduler
+
+[Service]
+ExecStart=/usr/bin/hyperkube scheduler                                      \
+    --master=127.0.0.1:443                                                  \
+    --v=2
+
+Restart=on-failure
+Type=notify
+
+[Install]
+WantedBy=multi-user.target

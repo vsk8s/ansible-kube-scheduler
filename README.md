@@ -1,2 +1,2 @@
-# ansible-kube-scheduler
+# Kubernetes Scheduler
 
