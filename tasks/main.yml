@@ -13,7 +13,7 @@
     dest: /etc/systemd/system/kube-scheduler.service
     owner: root
     group: root
-    mode: 0640
+    mode: 0644
   notify:
     - Reload systemd
     - Restart kube-scheduler
