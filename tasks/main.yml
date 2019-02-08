@@ -2,8 +2,9 @@
 - name: Install package
   become: True
   package:
-    name: hyperkube
+    name: kubernetes-hyperkube-kube-scheduler
     state: present
+    update_cache: True
 
 - name: Configure package
   become: True
