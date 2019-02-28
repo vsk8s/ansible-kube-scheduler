@@ -1,0 +1,4 @@
+---
+
+kube_scheduler_config: "/etc/kubernetes/kube-scheduler/config.conf"
+kube_scheduler_kubeconfig: "/etc/kubernetes/kube-scheduler/kubeconfig.yml"
