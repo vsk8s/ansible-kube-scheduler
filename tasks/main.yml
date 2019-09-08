@@ -22,3 +22,6 @@
   notify:
     - Reload systemd
     - Restart kube-scheduler
+
+- name: Flush handlers
+  meta: flush_handlers
