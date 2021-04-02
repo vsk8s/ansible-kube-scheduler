@@ -1,5 +1,11 @@
 ---
 
+- name: Install kubernetes-master
+  become: True
+  package:
+    name: kubernetes-master
+    state: present
+
 - name: Configure package
   become: True
   template:
